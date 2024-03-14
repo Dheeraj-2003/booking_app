@@ -96,7 +96,7 @@ class BookingScreen extends StatelessWidget {
                 style: TextStyle(color: Colors.white, fontSize: 18),
               ),
             ),
-            const CalendarView(),
+            CalendarView(onSelect: (k) {}),
             const Padding(
               padding: EdgeInsets.only(top: 15, left: 20, bottom: 15),
               child: Text(
@@ -108,7 +108,10 @@ class BookingScreen extends StatelessWidget {
               padding: const EdgeInsets.only(left: 15, right: 15),
               child: SizedBox(
                 height: 200,
-                child: ServiceTile(services: services),
+                child: ServiceTile(
+                  services: services,
+                  onSelect: (k) {},
+                ),
               ),
             )
           ],

@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 class CalendarView extends StatefulWidget {
-  const CalendarView({super.key});
+  const CalendarView({required this.onSelect, super.key});
+
+  final void Function(DateTime day) onSelect;
 
   @override
   State<CalendarView> createState() => _CalendarViewState();
@@ -16,6 +18,7 @@ class _CalendarViewState extends State<CalendarView> {
       weekendDays: const [],
       onDaySelected: (selectedDay, focusedDay) {
         setState(() {
+          widget.onSelect(_selectedDay);
           _selectedDay = selectedDay;
         });
       },
