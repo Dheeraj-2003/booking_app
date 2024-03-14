@@ -1,16 +1,11 @@
-# booking_app
+# Booking App
 
-A new Flutter project.
+A booking app made with flutter with a simple UI.
 
-## Getting Started
+# Some Pictures of the Demo App
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div align="center">
+  <img src="https://github.com/Dheeraj-2003/booking_app/blob/main/lib/demo_images/photo_2024-03-14_19-57-29.jpg" alt="Booking Screen" width="250" />
+  <img src="https://github.com/Dheeraj-2003/booking_app/blob/main/lib/demo_images/photo_2024-03-14_19-57-25.jpg" alt="Booking Screen" width="250" />
+  <img src="https://github.com/Dheeraj-2003/booking_app/blob/main/lib/demo_images/photo_2024-03-14_19-57-19.jpg" alt="Booking Screen" width="250" />
+</div>
