@@ -2,6 +2,13 @@
 
 A booking app made with flutter with a simple UI.
 
+# Steps to build the apk file
+
+1. Clone the repository.
+2. From the directory of the local cloned repository run this command in your terminal :-
+flutter build apk --split-per-abi
+3. You will find the built app here - build\app\outputs\flutter-apk\app-arm64-v8a-release.apk 
+
 # Some Pictures of the Demo App
 
 <div align="center">
