@@ -2,10 +2,10 @@
 
 A booking app made with flutter with a simple UI.
 
-# Steps to build the apk file
-
+# Downloading apk
 1.Download apk from build_
-Or
+
+# Steps to build apk 
 1. Clone the repository.
 2. From the directory of the local cloned repository run this command in your terminal :-
 flutter build apk --split-per-abi
