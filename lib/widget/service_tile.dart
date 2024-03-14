@@ -2,9 +2,12 @@ import 'package:booking_app/data/services.dart';
 import 'package:flutter/material.dart';
 
 class ServiceTile extends StatefulWidget {
-  const ServiceTile({required this.services, super.key});
+  const ServiceTile(
+      {required this.services, required this.onSelect, super.key});
 
   final List<Service> services;
+
+  final void Function(Service service) onSelect;
 
   @override
   State<ServiceTile> createState() => _ServiceTileState();
@@ -26,6 +29,7 @@ class _ServiceTileState extends State<ServiceTile> {
                 InkWell(
                   onTap: () {
                     setState(() {
+                      widget.onSelect(widget.services[idx]);
                       _selectedService = idx;
                     });
                   },
