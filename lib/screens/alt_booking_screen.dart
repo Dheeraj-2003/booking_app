@@ -50,7 +50,7 @@ class _BookingScreenAltState extends State<BookingScreenAlt> {
     const Padding(
       padding: EdgeInsets.only(left: 15, right: 15),
       child: SizedBox(
-        height: 180,
+        height: 170,
         child: TimeSlot(),
       ),
     ),
@@ -61,6 +61,7 @@ class _BookingScreenAltState extends State<BookingScreenAlt> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: CustomScrollView(
+        primary: false,
         slivers: <Widget>[
           SliverAppBar(
             title: const Text(

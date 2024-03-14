@@ -21,7 +21,7 @@ class _CalendarViewState extends State<CalendarView> {
       },
       selectedDayPredicate: (selectedDay) =>
           isSameDay(selectedDay, _selectedDay),
-      availableGestures: AvailableGestures.all,
+      availableGestures: AvailableGestures.none,
       headerStyle: HeaderStyle(
           headerMargin: const EdgeInsets.all(12),
           formatButtonVisible: false,
