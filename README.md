@@ -3,7 +3,7 @@
 A booking app made with flutter with a simple UI.
 
 # Downloading apk
-1.Download apk from build_
+1. Download apk from build_
 
 # Steps to build apk 
 1. Clone the repository.
