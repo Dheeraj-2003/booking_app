@@ -69,8 +69,7 @@ class ConfirmationScreen extends StatelessWidget {
                       minimumSize:
                           MaterialStatePropertyAll(Size(double.infinity, 50))),
                   onPressed: () {
-                    Navigator.of(context).pushReplacement(MaterialPageRoute(
-                        builder: (ctx) => const HomeScreen()));
+                    Navigator.of(context).pop();
                   },
                   icon: const Icon(
                     Icons.home,
